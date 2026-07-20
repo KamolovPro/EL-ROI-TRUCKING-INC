@@ -102,10 +102,10 @@ const GetAQuote = () => {
               Get Shipping Rate
             </motion.span>
             <motion.h1 variants={fadeInUp} className="text-primary-foreground mb-4 md:mb-6 text-3xl md:text-4xl lg:text-5xl">
-              Are you seeking a reliable and cost-effective freight shipping solution?
+              Honest rates. No runaround.
             </motion.h1>
             <motion.p variants={fadeInUp} className="text-base md:text-xl text-primary-foreground/80">
-              Look no further! Request a quote today.
+              Tell us about your load and we'll come back with a fair price — quickly.
             </motion.p>
           </motion.div>
         </div>
@@ -128,7 +128,7 @@ const GetAQuote = () => {
                   Logistics Shipment Rate Request
                 </h2>
                 <p className="text-muted-foreground mb-6 md:mb-8 text-sm md:text-base">
-                  We specialize in providing tailored shipping quotes for all types of FTL shipping modes, perfectly suited to your business needs. Our competitive rates and flexible services ensure an optimal shipping experience. Partner with {siteConfig.company.name} for efficient and professional freight transportation services.
+                  At {siteConfig.company.name}, quotes come from people, not algorithms. Share your route and freight details below, and we'll price it honestly — with no hidden fees and no pressure to book.
                 </p>
                 
                 <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">

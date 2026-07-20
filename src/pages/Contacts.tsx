@@ -76,7 +76,7 @@ const Contacts = () => {
               variants={stagger}
             >
               <motion.h2 variants={fadeInUp} className="text-foreground mb-4 text-2xl md:text-3xl lg:text-4xl">
-                Still have a question?
+                Come say hello
               </motion.h2>
 
               <motion.div variants={stagger} className="space-y-4 md:space-y-6 mb-6 md:mb-8">

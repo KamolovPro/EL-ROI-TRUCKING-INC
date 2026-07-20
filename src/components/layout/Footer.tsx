@@ -21,10 +21,10 @@ export function Footer() {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6 md:gap-8 text-center lg:text-left">
             <div>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-display font-bold mb-2">
-                Ready to Ship?
+                Let's move your next load
               </h2>
               <p className="text-primary-foreground/70 text-base md:text-lg">
-                Get your free quote in minutes and experience reliable freight delivery.
+                One call — and your freight is in careful hands from pickup to delivery.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
@@ -137,9 +137,9 @@ export function Footer() {
                   <div className="w-10 h-10 rounded-xl bg-primary-foreground/10 flex items-center justify-center flex-shrink-0 group-hover:bg-accent/20 transition-colors">
                     <Mail className="h-5 w-5" />
                   </div>
-                  <div>
-                    <p className="font-semibold text-primary-foreground">{contact.email}</p>
-                    <p className="text-sm">Dispatch: {contact.dispatchEmail}</p>
+                  <div className="min-w-0">
+                    <p className="font-semibold text-primary-foreground break-all">{contact.email}</p>
+                    <p className="text-sm break-all">Dispatch: {contact.dispatchEmail}</p>
                   </div>
                 </a>
               </li>

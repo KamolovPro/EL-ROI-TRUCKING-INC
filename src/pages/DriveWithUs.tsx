@@ -117,10 +117,10 @@ const DriveWithUs = () => {
               Apply to drive
             </motion.span>
             <motion.h1 variants={fadeInUp} className="text-primary-foreground mb-4 md:mb-6 text-3xl md:text-4xl lg:text-5xl">
-              Thank you for your interest in {siteConfig.company.name}
+              Join the {siteConfig.company.name} family
             </motion.h1>
             <motion.p variants={fadeInUp} className="text-base md:text-xl text-primary-foreground/80">
-              To apply for a driving position, please complete this form to have a recruiter contact you about our driver opportunities.
+              We hire people, not just CDLs. Fill out this short form and someone from our team — not a call center — will reach out to you.
             </motion.p>
           </motion.div>
         </div>
