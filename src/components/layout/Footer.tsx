@@ -42,7 +42,7 @@ export function Footer() {
                 asChild 
                 size="lg"
                 variant="outline"
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold px-6 md:px-8 w-full sm:w-auto"
+                className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground font-semibold px-6 md:px-8 w-full sm:w-auto"
               >
                 <a href={`tel:${contact.phoneRaw}`} className="flex items-center justify-center">
                   <Phone className="h-5 w-5 mr-2" />
